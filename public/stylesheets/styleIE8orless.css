@@ -1,0 +1,35 @@
+
+.site-logo {
+    width: 150px;
+    height: 80px;
+    background: transparent url("../images/logo.jpg") no-repeat center;
+    -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/logo.jpg', sizingMethod='scale')";
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/logo.jpg', sizingMethod='scale');
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    border: 1px solid;
+    text-align: center;
+    margin:  5px 5px 5px 5px;
+}
+.site-loading {
+        position: relative;
+        width: 80px;
+        height: 80px;
+        background: transparent url("../styles/Metro/loading.gif") no-repeat center;
+        -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../styles/Metro/loading.gif', sizingMethod='scale')";
+        filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../styles/Metro/loading.gifpg', sizingMethod='scale');
+        -moz-border-radius: 10px;
+        -webkit-border-radius: 10px;
+        background-size: 100%;
+        -moz-border-radius: 10px;
+        -webkit-border-radius: 10px;
+        border-radius: 10px;
+        border: 1px solid;
+        text-align: center;
+        margin:  5px 5px 5px 5px;
+        padding:2px;
+        z-index:200;
+        border:#333 solid;
+        border-width:1px;
+    }

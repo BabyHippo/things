@@ -1,0 +1,45 @@
+block stylesheets
+    link(rel='stylesheet', href='/stylesheets/index.css')
+    //link(rel='stylesheet', href='/stylesheets/tablecloth.css')
+
+
+
+block javascripts
+    //script(src=base + '/javascripts/jquery.zoomooz.js')
+    script(src=base + '/javascripts/ViewModels/index.js')
+    //script(src=base + '/javascripts/tablecloth.js')
+
+section(class="search-content")
+    div(class="search-wrapper")
+        //-hgroup(class="title")
+        div(id="findthings")
+            input(id="input",placeholder="Find Things…",type="search",autocomplete="off")
+
+
+section(class="grid-content")
+    div(id="things",class="k-content",style="width:100%;height:550px;")
+    //div(id="gridloading",class="site-loading")
+
+section(class="howto-content")
+    ol(class="round")
+        li(class="one")
+            h5 Try Baby Hippo by simply typing in the Feature Name, Porduct Name, Feature Value... Anthing that you can think of for any product in our database. 
+            p Once you have an Idea of what to search for click enter ot space and it will start searching.
+            p LIKE: Nikon
+            p or: Canon
+            p or: Canon Nikon
+            p or: 2.8 
+            p or: Canon Water proof
+            p or: 1200 iso Water proof
+            p or: Lens
+            p OR: Lets say you wanted a camera app.
+            p Like: camera app
+            p Like: camera app sepia
+            p Like: camera app facebook
+        li(class="two")
+            h5 If you dont find It TELL US... We will find the data and add it to our system. 
+            p If you want it so do we and we will find it for yo, or if you know where it is email us the link. joshua@babyhippo.info
+            | Also we are going to be adding in a wiki function so you can add and edit features yourself.
+        li(class="three")
+            h5 If something does not work COMPLAIN LOUDLY. EMAIL EMAIL EMAIL We will pivot and change as you direct.
+            p joshua@babyHippo.info

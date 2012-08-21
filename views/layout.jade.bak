@@ -1,0 +1,44 @@
+!!! 5
+html
+    head
+        - if (typeof(title) == 'undefined')
+        title babe hippo
+        - else 
+        title= title
+
+// include default stylesheets and any view stylesheets
+link(rel='stylesheet', href=base + '/stylesheets/style.css')
+
+// include default scripts and any view scripts
+script(src=base + '/javascripts/jquery-1.7.min.js')
+ 
+body   
+    header
+    nav
+        ul#menu
+            li 
+                a(href="/") Home
+            li 
+                a(href="/chat") Chat
+            li
+                a(href="/about") About
+            li
+                section#login
+    div(class='content-wrapper')
+        div(class="float-left")
+            div(id="logo",class="site-logo")
+            p(class="site-title")
+                a(href="/") baby Hippo.
+        div(class="float-right")
+
+#body!= body
+
+footer
+    div(class="content-wrapper")
+    div(class="float-left")
+        p &copy; !{(new Date()).getFullYear()}
+    div(class="float-right")
+        ul#social
+            li
+                a(href="http://facebook.com", class="facebook") Facebook
+                a(href="http://twitter.com", class="twitter") Twitter

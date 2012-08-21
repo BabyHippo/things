@@ -1,0 +1,134 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files (x86)\\nodejs\\\\node.exe',
+1 verbose cli   'C:\\Program Files (x86)\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'shrinkwrap' ]
+2 info using npm@1.1.45
+3 info using node@v0.8.4
+4 verbose node symlink C:\Program Files (x86)\nodejs\\node.exe
+5 verbose config file C:\Users\joshuas\.npmrc
+6 verbose config file C:\Program Files (x86)\nodejs\etc\npmrc
+7 verbose config file C:\Program Files (x86)\nodejs\node_modules\npm\npmrc
+8 verbose read json C:\Users\joshuas\Documents\My Web Sites\babyhippo\package.json
+9 verbose read json C:\Users\joshuas\Documents\My Web Sites\babyhippo\node_modules\connect\package.json
+10 verbose read json C:\Users\joshuas\Documents\My Web Sites\babyhippo\node_modules\everyauth\package.json
+11 verbose read json C:\Users\joshuas\Documents\My Web Sites\babyhippo\node_modules\express\package.json
+12 verbose read json C:\Users\joshuas\Documents\My Web Sites\babyhippo\node_modules\jade\package.json
+13 verbose read json C:\Users\joshuas\Documents\My Web Sites\babyhippo\node_modules\knockout-client\package.json
+14 verbose read json C:\Users\joshuas\Documents\My Web Sites\babyhippo\node_modules\less\package.json
+15 verbose read json C:\Users\joshuas\Documents\My Web Sites\babyhippo\node_modules\mongoose\package.json
+16 verbose read json C:\Users\joshuas\Documents\My Web Sites\babyhippo\node_modules\nconf\package.json
+17 verbose read json C:\Users\joshuas\Documents\My Web Sites\babyhippo\node_modules\node-uuid\package.json
+18 verbose read json C:\Users\joshuas\Documents\My Web Sites\babyhippo\node_modules\pivot.json\package.json
+19 verbose read json C:\Users\joshuas\Documents\My Web Sites\babyhippo\node_modules\recaptcha\package.json
+20 verbose read json C:\Users\joshuas\Documents\My Web Sites\babyhippo\node_modules\socket.io\package.json
+21 warn package.json jade@0.22.0 No README.md file found!
+22 verbose read json C:\Users\joshuas\Documents\My Web Sites\babyhippo\node_modules\jade\node_modules\commander\package.json
+23 verbose read json C:\Users\joshuas\Documents\My Web Sites\babyhippo\node_modules\jade\node_modules\mkdirp\package.json
+24 verbose read json C:\Users\joshuas\Documents\My Web Sites\babyhippo\node_modules\express\node_modules\mime\package.json
+25 verbose read json C:\Users\joshuas\Documents\My Web Sites\babyhippo\node_modules\express\node_modules\mkdirp\package.json
+26 verbose read json C:\Users\joshuas\Documents\My Web Sites\babyhippo\node_modules\express\node_modules\qs\package.json
+27 warn package.json connect@1.8.6 No README.md file found!
+28 verbose read json C:\Users\joshuas\Documents\My Web Sites\babyhippo\node_modules\connect\node_modules\formidable\package.json
+29 verbose read json C:\Users\joshuas\Documents\My Web Sites\babyhippo\node_modules\connect\node_modules\mime\package.json
+30 verbose read json C:\Users\joshuas\Documents\My Web Sites\babyhippo\node_modules\connect\node_modules\qs\package.json
+31 verbose read json C:\Users\joshuas\Documents\My Web Sites\babyhippo\node_modules\nconf\node_modules\async\package.json
+32 verbose read json C:\Users\joshuas\Documents\My Web Sites\babyhippo\node_modules\nconf\node_modules\ini\package.json
+33 verbose read json C:\Users\joshuas\Documents\My Web Sites\babyhippo\node_modules\nconf\node_modules\optimist\package.json
+34 verbose read json C:\Users\joshuas\Documents\My Web Sites\babyhippo\node_modules\nconf\node_modules\pkginfo\package.json
+35 verbose read json C:\Users\joshuas\Documents\My Web Sites\babyhippo\node_modules\mongoose\node_modules\hooks\package.json
+36 verbose read json C:\Users\joshuas\Documents\My Web Sites\babyhippo\node_modules\mongoose\node_modules\mongodb\package.json
+37 verbose read json C:\Users\joshuas\Documents\My Web Sites\babyhippo\node_modules\mongoose\node_modules\ms\package.json
+38 verbose read json C:\Users\joshuas\Documents\My Web Sites\babyhippo\node_modules\socket.io\node_modules\policyfile\package.json
+39 verbose read json C:\Users\joshuas\Documents\My Web Sites\babyhippo\node_modules\socket.io\node_modules\redis\package.json
+40 verbose read json C:\Users\joshuas\Documents\My Web Sites\babyhippo\node_modules\socket.io\node_modules\socket.io-client\package.json
+41 verbose read json C:\Users\joshuas\Documents\My Web Sites\babyhippo\node_modules\everyauth\node_modules\debug\package.json
+42 verbose read json C:\Users\joshuas\Documents\My Web Sites\babyhippo\node_modules\everyauth\node_modules\node-swt\package.json
+43 verbose read json C:\Users\joshuas\Documents\My Web Sites\babyhippo\node_modules\everyauth\node_modules\node-wsfederation\package.json
+44 verbose read json C:\Users\joshuas\Documents\My Web Sites\babyhippo\node_modules\everyauth\node_modules\oauth\package.json
+45 verbose read json C:\Users\joshuas\Documents\My Web Sites\babyhippo\node_modules\everyauth\node_modules\openid\package.json
+46 verbose read json C:\Users\joshuas\Documents\My Web Sites\babyhippo\node_modules\everyauth\node_modules\request\package.json
+47 verbose read json C:\Users\joshuas\Documents\My Web Sites\babyhippo\node_modules\everyauth\node_modules\restler\package.json
+48 verbose read json C:\Users\joshuas\Documents\My Web Sites\babyhippo\node_modules\everyauth\node_modules\xml2js\package.json
+49 warn package.json node-wsfederation@0.1.1 No README.md file found!
+50 warn package.json node-swt@0.1.1 No README.md file found!
+51 verbose read json C:\Users\joshuas\Documents\My Web Sites\babyhippo\node_modules\socket.io\node_modules\socket.io-client\node_modules\active-x-obfuscator\package.json
+52 verbose read json C:\Users\joshuas\Documents\My Web Sites\babyhippo\node_modules\socket.io\node_modules\socket.io-client\node_modules\uglify-js\package.json
+53 verbose read json C:\Users\joshuas\Documents\My Web Sites\babyhippo\node_modules\socket.io\node_modules\socket.io-client\node_modules\ws\package.json
+54 verbose read json C:\Users\joshuas\Documents\My Web Sites\babyhippo\node_modules\socket.io\node_modules\socket.io-client\node_modules\xmlhttprequest\package.json
+55 verbose read json C:\Users\joshuas\Documents\My Web Sites\babyhippo\node_modules\mongoose\node_modules\mongodb\node_modules\bson\package.json
+56 verbose read json C:\Users\joshuas\Documents\My Web Sites\babyhippo\node_modules\everyauth\node_modules\xml2js\node_modules\sax\package.json
+57 verbose read json C:\Users\joshuas\Documents\My Web Sites\babyhippo\node_modules\nconf\node_modules\optimist\node_modules\wordwrap\package.json
+58 verbose read json C:\Users\joshuas\Documents\My Web Sites\babyhippo\node_modules\socket.io\node_modules\socket.io-client\node_modules\ws\node_modules\commander\package.json
+59 verbose read json C:\Users\joshuas\Documents\My Web Sites\babyhippo\node_modules\socket.io\node_modules\socket.io-client\node_modules\ws\node_modules\options\package.json
+60 verbose read json C:\Users\joshuas\Documents\My Web Sites\babyhippo\node_modules\socket.io\node_modules\socket.io-client\node_modules\active-x-obfuscator\node_modules\zeparser\package.json
+61 verbose readInstalled returning node-uuid@1.3.3
+62 verbose readInstalled returning everyauth@0.2.32
+63 verbose readInstalled returning nconf@0.5.1
+64 verbose readInstalled returning express@2.5.9
+65 verbose readInstalled returning jade@0.22.0
+66 verbose readInstalled returning less@1.3.0
+67 verbose readInstalled returning socket.io@0.9.4
+68 verbose readInstalled returning connect@1.8.6
+69 verbose readInstalled returning recaptcha@1.1.0
+70 verbose readInstalled returning knockout-client@2.1.0
+71 verbose readInstalled returning mongoose@3.0.0rc0
+72 verbose readInstalled returning oauth@0.9.6
+73 verbose readInstalled returning restler@2.0.0
+74 verbose readInstalled returning request@2.9.153
+75 verbose readInstalled returning openid@0.4.1
+76 verbose readInstalled returning xml2js@0.1.13
+77 verbose readInstalled returning node-swt@0.1.1
+78 verbose readInstalled returning node-wsfederation@0.1.1
+79 verbose readInstalled returning debug@0.5.0
+80 verbose readInstalled returning qs@0.4.2
+81 verbose readInstalled returning mime@1.2.5
+82 verbose readInstalled returning formidable@1.0.9
+83 verbose readInstalled returning sax@0.4.0
+84 verbose readInstalled returning async@0.1.18
+85 verbose readInstalled returning ini@1.0.2
+86 verbose readInstalled returning optimist@0.3.1
+87 verbose readInstalled returning pkginfo@0.2.3
+88 verbose readInstalled returning wordwrap@0.0.2
+89 verbose readInstalled returning mime@1.2.4
+90 verbose readInstalled returning qs@0.4.2
+91 verbose readInstalled returning mkdirp@0.3.0
+92 verbose readInstalled returning commander@0.5.2
+93 verbose readInstalled returning mkdirp@0.3.0
+94 verbose readInstalled returning socket.io-client@0.9.4
+95 verbose readInstalled returning policyfile@0.0.4
+96 verbose readInstalled returning redis@0.6.7
+97 verbose readInstalled returning uglify-js@1.2.5
+98 verbose readInstalled returning ws@0.4.12
+99 verbose readInstalled returning xmlhttprequest@1.2.2
+100 verbose readInstalled returning active-x-obfuscator@0.0.1
+101 verbose readInstalled returning commander@0.5.2
+102 verbose readInstalled returning options@0.0.3
+103 verbose readInstalled returning zeparser@0.0.5
+104 verbose readInstalled returning hooks@0.2.1
+105 verbose readInstalled returning mongodb@1.1.2
+106 verbose readInstalled returning ms@0.1.0
+107 verbose readInstalled returning bson@0.1.1
+108 error Error: Problems were encountered
+108 error Please correct and try again.
+108 error extraneous: knockout-client@2.1.0 C:\Users\joshuas\Documents\My Web Sites\babyhippo\node_modules\knockout-client
+108 error extraneous: mongoose@3.0.0rc0 C:\Users\joshuas\Documents\My Web Sites\babyhippo\node_modules\mongoose
+108 error     at shrinkwrap_ (C:\Program Files (x86)\nodejs\node_modules\npm\lib\shrinkwrap.js:28:15)
+108 error     at C:\Program Files (x86)\nodejs\node_modules\npm\lib\shrinkwrap.js:22:5
+108 error     at C:\Program Files (x86)\nodejs\node_modules\npm\lib\ls.js:39:30
+108 error     at C:\Program Files (x86)\nodejs\node_modules\npm\node_modules\read-installed\read-installed.js:117:5
+108 error     at C:\Program Files (x86)\nodejs\node_modules\npm\node_modules\read-installed\read-installed.js:233:14
+108 error     at cb (C:\Program Files (x86)\nodejs\node_modules\npm\node_modules\slide\lib\async-map.js:48:11)
+108 error     at C:\Program Files (x86)\nodejs\node_modules\npm\node_modules\read-installed\read-installed.js:233:14
+108 error     at cb (C:\Program Files (x86)\nodejs\node_modules\npm\node_modules\slide\lib\async-map.js:48:11)
+108 error     at C:\Program Files (x86)\nodejs\node_modules\npm\node_modules\read-installed\read-installed.js:233:14
+108 error     at cb (C:\Program Files (x86)\nodejs\node_modules\npm\node_modules\slide\lib\async-map.js:48:11)
+109 error If you need help, you may report this log at:
+109 error     <http://github.com/isaacs/npm/issues>
+109 error or email it to:
+109 error     <npm-@googlegroups.com>
+110 error System Windows_NT 6.1.7601
+111 error command "C:\\Program Files (x86)\\nodejs\\\\node.exe" "C:\\Program Files (x86)\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "shrinkwrap"
+112 error cwd C:\Users\joshuas\Documents\My Web Sites\babyhippo
+113 error node -v v0.8.4
+114 error npm -v 1.1.45
+115 verbose exit [ 1, true ]
